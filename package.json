@@ -1,0 +1,26 @@
+{
+	"name": "D05-Amazon-backend",
+	"version": "2.0.0",
+	"description": "a simple backend to manage students and projects",
+	"main": "index.js",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-list-endpoints": "^5.0.0",
+		"express-validator": "^6.8.0",
+		"fs-extra": "^9.0.1",
+		"multer": "^1.4.2",
+		"nodemon": "^2.0.6",
+		"path": "^0.12.7",
+		"uniqid": "^5.2.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon -r dotenv/config --ignore './db' --ignore './public' ./src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
